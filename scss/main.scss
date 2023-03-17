@@ -1,4 +1,37 @@
 @import "resets";
 @import "variables";
 
+body {
+  background-color: $off-white;
+  font-family: "Inter", sans-serif;
+  margin-top: 5.563rem;
+  margin-left: 10.313rem;
+  margin-right: 10.313rem;
+  margin-bottom: 8.063rem;
+}
 
+.header-section {
+  .navigation {
+    width: 26.938rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 0.938rem;
+  }
+  ul {
+    font-weight: map-get($font-weights, regular);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+  }
+  a {
+    color: $dark-grayish-blue;
+    text-decoration: none;
+  }
+  a:hover {
+    cursor: pointer;
+    color: $soft-orange;
+  }
+}

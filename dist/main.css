@@ -16,4 +16,36 @@ body {
 
 /* Primary */
 /* Neutral */
-/*  Fonts *//*# sourceMappingURL=main.css.map */
+/*  Fonts */
+body {
+  background-color: hsl(36, 100%, 99%);
+  font-family: "Inter", sans-serif;
+  margin-top: 5.563rem;
+  margin-left: 10.313rem;
+  margin-right: 10.313rem;
+  margin-bottom: 8.063rem;
+}
+
+.header-section .navigation {
+  width: 26.938rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.938rem;
+}
+.header-section ul {
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+.header-section a {
+  color: hsl(236, 13%, 42%);
+  text-decoration: none;
+}
+.header-section a:hover {
+  cursor: pointer;
+  color: hsl(35, 77%, 62%);
+}/*# sourceMappingURL=main.css.map */
