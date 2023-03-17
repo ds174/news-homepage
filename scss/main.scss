@@ -10,12 +10,25 @@ body {
   margin-bottom: 8.063rem;
 }
 
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .logo_image {
+    position: absolute;
+    left: 0;
+  }
+}
 .header-section {
   .navigation {
     width: 26.938rem;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     font-size: 0.938rem;
+    position: absolute;
+    right: 0;
   }
   ul {
     font-weight: map-get($font-weights, regular);
