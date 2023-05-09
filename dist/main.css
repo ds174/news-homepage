@@ -91,6 +91,9 @@ body {
   padding: 0;
 }
 .main__article__paragraph {
+  margin: 0;
+  position: absolute;
+  top: 0;
   font-size: 0.938rem;
   color: hsl(236, 13%, 42%);
 }

@@ -38,6 +38,9 @@
       padding: 0;
     }
     &__paragraph {
+      margin: 0;
+      position: absolute;
+      top: 0;
       font-size: 0.938rem;
       color: $dark-grayish-blue;
     }
@@ -64,8 +67,6 @@
     #main_paragraph {
       position: relative;
     }
-
-  
   }
 }
 .right-part-content {
