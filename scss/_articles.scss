@@ -1,3 +1,49 @@
-.articles {
+/* .articles {
   visibility: hidden;
-}
+} */
+
+ .articles {
+      margin-top: 4.438rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .footer__article {
+        width: 21.875rem;
+        height: 8.063rem;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+          &__description {
+            margin-left: 1.5rem;
+            padding: 0%;
+          }
+
+          &__number {
+          font-size: 2rem;
+          font-weight: bold;
+          color: $grayish-blue;
+          }
+
+          &__heading {
+            margin-top: 0.75rem;
+            font-size: 1.125rem;
+            font-weight: 800;
+          }
+
+          &__text {
+            margin-top: 0.563rem;
+            font-size: 0.938rem;
+            color: $dark-grayish-blue;
+            margin-bottom: 0;
+          }
+      }
+
+      img {
+        width: 6.25rem;
+        height: 7.938rem;
+      }
+  }
+

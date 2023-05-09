@@ -64,21 +64,56 @@
     #main_paragraph {
       position: relative;
     }
+
+  
   }
 }
 .right-part-content {
   width: 21.875rem;
   height: 31.938rem;
   background-color: $very-dark-blue;
+  color: white;
   padding: 2rem 1.5rem 2rem 1.5rem;
   box-sizing: border-box;
   position: absolute;
   right: 0;
   top: 0;
 
+  .right-part-articles {
+    margin-top: 2.125rem;
+    margin-bottom: 2rem;
+  }
+
   .right__part__heading {
     font-size: 2.5rem;
     color: $soft-orange;
     margin: 0;
+  }
+  .right__article {
+    width: 18.875rem;
+    height: 5.25rem;
+    &#article-2,
+    &#article-3 {
+      margin-top: 3.813rem;
+    }
+
+    &__paragraph {
+      margin-top: 0.5rem;
+      color: $dark-grayish-blue;
+      font-size: 0.938rem;
+      font-weight: 400;
+    }
+
+    &__heading {
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: white;
+      margin: 0;
+
+      &:hover {
+        cursor: pointer;
+        color: $soft-orange;
+      }
+    }
   }
 }
