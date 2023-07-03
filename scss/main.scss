@@ -3,8 +3,11 @@
 @import "header";
 @import "middlesection";
 @import "articles";
+@import "mobile";
+@import "menu";
 
 body {
+  max-width: fit-content;
   background-color: $off-white;
   font-family: "Inter", sans-serif;
   margin-top: 5.563rem;

@@ -17,11 +17,14 @@
     justify-content: space-between;
 
     &__description {
+      height: 8.063rem;
+      padding-bottom: 0;
       margin-left: 1.5rem;
       padding: 0%;
     }
 
     &__number {
+      padding: 0;
       font-size: 2rem;
       font-weight: bold;
       color: $grayish-blue;
@@ -31,13 +34,19 @@
       margin-top: 0.75rem;
       font-size: 1.125rem;
       font-weight: 800;
+      margin-bottom: 0.563rem;
+      &:hover {
+        cursor: pointer;
+        color: $soft-orange;
+
+      }
     }
 
     &__text {
-      margin-top: 0.563rem;
+      margin-top: 0;
       font-size: 0.938rem;
       color: $dark-grayish-blue;
-      margin-bottom: 0;
+      line-height: 1.625rem;
     }
   }
 

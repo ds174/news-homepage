@@ -182,10 +182,13 @@ body {
   justify-content: space-between;
 }
 .articles .footer__article__description {
+  height: 8.063rem;
+  padding-bottom: 0;
   margin-left: 1.5rem;
   padding: 0%;
 }
 .articles .footer__article__number {
+  padding: 0;
   font-size: 2rem;
   font-weight: bold;
   color: hsl(233, 8%, 79%);
@@ -194,12 +197,17 @@ body {
   margin-top: 0.75rem;
   font-size: 1.125rem;
   font-weight: 800;
+  margin-bottom: 0.563rem;
+}
+.articles .footer__article__heading:hover {
+  cursor: pointer;
+  color: hsl(35, 77%, 62%);
 }
 .articles .footer__article__text {
-  margin-top: 0.563rem;
+  margin-top: 0;
   font-size: 0.938rem;
   color: hsl(236, 13%, 42%);
-  margin-bottom: 0;
+  line-height: 1.625rem;
 }
 .articles img {
   width: 6.25rem;
@@ -207,6 +215,8 @@ body {
 }
 
 body {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
   background-color: hsl(36, 100%, 99%);
   font-family: "Inter", sans-serif;
   margin-top: 5.563rem;
